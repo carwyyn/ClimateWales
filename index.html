@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>Climate Change Wales</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+        <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+
+
+
+
+
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.39.1/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.39.1/mapbox-gl.css' rel='stylesheet' />
+
+      <link href='js/mapStyle.css' rel='stylesheet' />
+
+    
+    
+    <script src="https://d3js.org/topojson.v2.min.js"></script>
+      <script src="/d3/d3.js"></script>
+      <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+  <style>
+
+  @font-face {
+    font-family: eco;
+    src: url(RymanEco.otf);
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: eco;
+
+}
+
+
+  body {
+      font: 400 15px Lato, sans-serif;
+      line-height: 1.8;
+      color: #818181;
+  }
+
+  .fullscreen-bg {
+    position: static;
+    opacity: 0.2;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.fullscreen-bg__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@media (min-aspect-ratio: 16/9) {
+  .fullscreen-bg__video {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .fullscreen-bg__video {
+    width: auto;
+    height: 100%;
+  }
+}
+
+
+  h2 {
+      font-size: 24px;
+      text-transform: uppercase;
+      color: #303030;
+      font-weight: 600;
+      margin-bottom: 30px;
+  }
+  h4 {
+      font-size: 19px;
+      line-height: 1.375em;
+      color: #303030;
+      font-weight: 400;
+      margin-bottom: 30px;
+  }
+      p {
+          text-align: justify;
+      }
+  .jumbotron {
+      background-color: #669e3f;
+      color: white;
+      padding: 100px 25px;
+      font-family: Montserrat, sans-serif;
+  }
+  .container-fluid {
+      padding: 60px 50px;
+  }
+  .bg-grey {
+      background-color: #f6f6f6;
+  }
+  .logo-small {
+      color: #f4511e;
+      font-size: 50px;
+  }
+  .logo {
+      color: #669e3f;
+      font-size: 200px;
+  }
+  .thumbnail {
+      padding: 0 0 15px 0;
+      border: none;
+      border-radius: 0;
+  }
+  .thumbnail img {
+      width: 100%;
+      height: 100%;
+      margin-bottom: 10px;
+  }
+  .carousel-control.right, .carousel-control.left {
+      background-image: none;
+      color: #f4511e;
+  }
+  .carousel-indicators li {
+      border-color: #f4511e;
+  }
+  .carousel-indicators li.active {
+      background-color: #f4511e;
+  }
+  .item h4 {
+      font-size: 19px;
+      line-height: 1.375em;
+      font-weight: 400;
+      font-style: italic;
+      margin: 70px 0;
+  }
+  .item span {
+      font-style: normal;
+  }
+  .panel {
+      border: 1px solid #f4511e; 
+      border-radius:0 !important;
+      transition: box-shadow 0.5s;
+  }
+  .panel:hover {
+      box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+  }
+  .panel-footer .btn:hover {
+      border: 1px solid #f4511e;
+      background-color: #fff !important;
+      color: #f4511e;
+  }
+  .panel-heading {
+      color: #fff !important;
+      background-color: #f4511e !important;
+      padding: 25px;
+      border-bottom: 1px solid transparent;
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+  }
+  .panel-footer {
+      background-color: white !important;
+  }
+  .panel-footer h3 {
+      font-size: 32px;
+  }
+  .panel-footer h4 {
+      color: #aaa;
+      font-size: 14px;
+  }
+  .panel-footer .btn {
+      margin: 15px 0;
+      background-color: #f4511e;
+      color: #fff;
+  }
+  .navbar {
+      margin-bottom: 0;
+      background-color: #669e3f;
+      z-index: 9999;
+      border: 0;
+      font-size: 12px !important;
+      line-height: 1.42857143 !important;
+      letter-spacing: 4px;
+      border-radius: 0;
+      font-family: Montserrat, sans-serif;
+  }
+  .navbar li a, .navbar .navbar-brand {
+      color: #fff !important;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+      color: #f4511e !important;
+      background-color: #fff !important;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+      color: #fff !important;
+  }
+  footer .glyphicon {
+      font-size: 20px;
+      margin-bottom: 20px;
+      color: #f4511e;
+  }
+  .slideanim {visibility:hidden;}
+  .slide {
+      animation-name: slide;
+      -webkit-animation-name: slide;
+      animation-duration: 1s;
+      -webkit-animation-duration: 1s;
+      visibility: visible;
+  }
+  @keyframes slide {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  @-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
+    .btn-lg {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .logo {
+        font-size: 150px;
+    }
+  }
+
+.text-center  {
+	margin: auto;
+}
+
+
+  .picture-quote {
+  	width: 90%;
+  	margin: auto;
+  	height: 70%;
+  	border-radius: 50%;
+  }
+      
+      #gas {
+          height: 60vh;
+          width: 100%;
+      }
+
+#energy-jumbotron {
+
+	
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 20% 10%;
+}
+
+#public-jumbotron {
+	/*background-image: url("senedd.jpg");*/
+	
+	    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100% 80%;
+}
+
+#transport-jumbotron {
+	/*background-image: url("road.jpg");*/
+	
+	    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+#agriculture-jumbotron {
+	/*background-image: url("dairy.jpg");*/
+	color: white;
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+      
+      #map { display: inline-block; height: 70vh; width:100%; }
+
+
+#ghg {
+  height: 100%;
+  width: 100%;
+}
+
+#ghgSector {
+  height: 80%;
+  width: 100%;
+}
+
+#dash {
+  height: 50vh;
+}
+
+.serie :not(:hover) {
+  fill: #669e3f
+  ;
+}
+      
+      path.average {
+          stroke: darkviolet;
+          stroke-width: 3px;
+          fill: none;
+      }
+
+#sectorTitle:first-letter {
+  text-transform: capitalize;
+}
+
+.sector {
+  height: 40vh;
+  display: block;
+}
+
+
+.arrow {
+
+  height: 33%;
+}
+
+.logo-arrow{
+  width: 30%;
+  height: 100%;
+
+}
+
+.changeIndicator {
+  display: inline;
+  vertical-align: middle;
+}
+
+.logo-arrow{
+      color: #f4511e;
+      font-size: 100px;
+    }
+
+    #headline {
+    	height: 98vh;
+    	width: 100vw;
+    	background: none;
+    }
+
+.headline-text:first-child {
+	color: black !important;
+	font-size: 8em !important;
+}
+
+.headline-text {
+	color: black !important;
+}
+
+	#headline-center {
+		margin-top: 20%;
+	}
+
+    #vis{
+    width: 100%;
+    height: 90vh;
+  }
+
+
+  </style>
+  
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+ 
+  <div class="container">      
+
+
+
+
+
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#myPage">Cymraeg</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#dashNav">Dashboard</a></li>
+        <li><a href="#energy-jumbotron">Energy</a></li>
+        <li><a href="#public-jumbotron">Public</a></li>
+        <li><a href="#transport-jumbotron">Transport</a></li>
+        <li><a href="#residential-jumbotron">Residential</a></li>
+        <li><a href="#agriculture-jumbotron">Agriculture</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div id="headline" class="jumbotron text-center">
+   <div class="fullscreen-bg">
+  <!-- https://slicejack.com/fullscreen-html5-video-background-css/ -->
+  <video loop muted autoplay class="fullscreen-bg__video">
+      <source src="wind.mp4" type="video/mp4"> <!--https://www.youtube.com/watch?v=yD55QUVL8UA -->
+  </video>
+
+</div>
+
+	<div id="headline-center">
+  <h1 class="headline-text">Climate Change Cymru</h1> 
+  <p class="text-center headline-text">How effective are mitigation efforts to reduce greenhouse gas emissions?</p> </div>div
+
+</div>
+
+<!-- Container (About Section) -->
+<div id="dashNav" class="container-fluid">
+  <div class="row">
+    <div class="col-sm-8">
+      
+      <h4>"I expect Wales to make a significant contribution towards the UK commitment to reduce carbon dioxide and other greenhouse gas emissions. 
+
+<br><br>"There are opportunities and challenges for Wales and the Assembly, and the Assembly will have an important part to play in delivering the climate change programme.”
+</h4><h3>Alun Michael, First Secretary of Wales, mentioning climate change in the National Assembly of Wales for the first time in June 1999.</h3><br>
+
+<br><button class="btn btn-default btn-lg">Get in Touch</button>
+    </div>
+    <div class="col-sm-4">
+      <img class = "picture-quote" src="alun.jpg"/>
+    </div>
+  </div>
+</div>
+
+<div id="dashboard-viz" class="container-fluid bg-grey">
+  <div class="row">
+
+
+    <div class="col-sm-12" id="dash">
+    <h2 class="text-center">Greenhouse Gas Emissions Dashboard</h2>  <svg id="ghg" /> </div>
+
+    <div class="col-sm-6 sector">
+    <h3   id="sectorTitle">Select a sector</h3> <svg id="ghgSector" /> 
+    </div>
+
+    <div class="col-sm-6 sector">
+      <div class="arrow">
+       <span id="since1990Arrow" class="glyphicon  logo-arrow"></span> 
+       <h4 class="changeIndicator" id="since1990"></h4>
+    </div>
+    <div class="arrow">
+      <span id="since2005Arrow" class="glyphicon  logo-arrow"></span> 
+      <h4 class="changeIndicator" id="since2005"></h4>
+    </div>
+    <div class="arrow" >
+      <span id="since2014Arrow" class="glyphicon  logo-arrow"></span>
+      <h4 class="changeIndicator" id="since2014"></h4>
+    </div>
+
+</div>
+
+
+
+<!--<button onclick="piePlay()">Play</button>  <div id="gas"> --> 
+
+
+
+</div>
+
+</div>
+
+<!-- Container (Services Section) -->
+<div id="energyNav" class="container-fluid">
+  <h2 class="text-center">Eighteen years on, Wales is falling behind.</h2>
+  <h4 class="text-center">2020 target 'likely to be missed'</h4>
+  <br>
+  <div class="row slideanim">
+    <div class="col-sm-2"> </div>
+      <div class="col-sm-8"><p>In its aspiration to make the most of devolution and support a modern de-industrialised Welsh identity, consecutive Welsh Assembly Governments have put sustainability at their core, framing Wales as as a sustainability leader and a green government. But, as greenhouse gas emission data tells us, securing polluting jobs over a green agenda has consistently been the case.
+<br><br>
+With the exception of domestic waste recycling, there is little evidence to prove that having a devolved authority is helping Wales meet its climate change targets, which despite initially being challenging and environmental, are constantly failed or climbed down to UK level targets. 
+<br><br>
+Wales is consistently among the OECDs biggest polluters per capita, and 2015 saw Scotland emit less emissions. Despite having less than 5% of the UK population, Wales emits twice the proportion of greenhouse gas emissions.</p><h6 class="w3-opacity" id="capitaYear" style="font-size:3em;"><i></i></h6><input type="submit" id="myCheck" value="Click Me" onclick="capita()">
+          <svg id="worldCapita" width="95%" height="60vh"></svg>
+          <br><br><p>
+          The Committee on Climate Change, the government's main advisor on the matter, has said that the 2020 target is 'likely to be missed', and that urgent action is needed in devolved areas to 'progress more quickly'.
+<br><br>
+2015 figures show that Wales is far off track to meeting its 2020 40% reduction in greenhouse gases. Emissions from the energy sector, transport, agriculture, residential and public sector all increased in 2015, despite commitments to reduce them. Whilst a reduction from business and industry did mean an overall reduction in emissions, Wales emitted slightly more emissions in 2015 than it did in 2009, when the One Wales Government announced its sustainability policies to reduce emissions.
+<br><br>
+In fact, if we continue the trajectory of emission reduction based on the average of the last 5 years since 2010, it would take until the year 2180 to became a zero carbon nation.
+<br><br>
+Analysis of committee reports show the Welsh Government repeatedly criticised on matters around greenhouse gas. These criticisms include the need to urgently review building regulations to make homes more efficient to stop undermining the well-being law, the slow progress of developing renewables and a 'disastrous failure' to create new woodland. 
+
+</p> </div>
+      <div class="col-sm-2"> </div>
+  </div>
+  <br><br>
+
+</div>
+
+<div id="energy-jumbotron" class="jumbotron text-center"> <!-- http://www.geograph.org.uk/photo/2744250 -->
+  <h1>Energy Supply</h1> 
+  <p class="text-center">Electricity genertion makes up to a third of emissions</p> 
+
+</div>
+
+<div class="container-fluid bg-grey">
+  <div class="row">
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-fire logo slideanim"></span>
+    </div>
+    <div class="col-sm-8"><div>
+
+      <p>Sustainable development in Wales is undermined by being secondary to economic indicators, especially true in the energy supply industry, which includes electricity generation. 
+
+Almost half of emissions from electricity and heat generation in Wales in 2015 came directly from one power plant; Aberthaw, despite the site only contributing a third of supply. In the previous year, Aberthaw emitted 850 tonnes of CO2 per GWh, compared to 512 tonnes in the rest of the sector, proving the polluting nature of coal.
+<br><br>
+It also has other negative effects. Between 2008 and 2011, Aberthaw emitted double the legal amount of nitrogen oxides as allowed by European law. The plant had a permit from Natural Resources Wales to break these legal limits. It was found to be illegal in September last year by the European Court of Justice, but took until 1st April 2017 for Natural Resources Wales under the Welsh Government to reduce their permit to legal levels. 
+<br><br>
+Throughout this polluting period, the plant has had support from the Welsh Government, with environment secretary Lesley Griffiths agreeing in Februaryin an Assembly debate a wish to keep the plant open into the medium term, despite its substantial contribution to greenhouse gas emissions.
+<br><br>
+Other ideas to reduce greenhouse gas emissions is to make current plant less polluting. Using carbon capture and storage technology, it would involve storing the emissions released by a plant, and storing it in the ground. 
+<br><br>
+Professor Watson of the University of Sussex told the CCERA committee that there are issues with current technology, and people's concerns, citing protests in Germany over the safety of storing CO2 under land. 
+<br><br>
+In addition, Mark Picton, commercial operations manager at Aberthaw power station was also sceptical, saying "the massive challenge with carbon capture is that the technology is not quite there.
+<br><br>
+"There may be no point going forward with carbon capture if there is no future for coal." The biggest issue remains, where would it be stored?
+<br><br>
+At the same time, the Welsh Government has failed its targets at installing renewable energy in Wales, after meeting its 2010 target of generating 4TWh of renewable energy five years late.
+<br><br>
+In 2009 the then ambitious environment minister Jane Davidson said: "we intend to reduce by 80-90% our use of carbon-based energy, resulting in a similar reduction in our greenhouse gas generation."
+<br><svg id="stacked" width="95%" height="20vh"></svg><br>
+In their sustainability scheme Low Carbon Revolution set out in 2009, the Welsh Government planned to install 2,000 MW of onshore wind capacity and 6,000 MW of offshore win capacity by 2017. Latest figures show the offshore wind capacity is 1,534 MW, a fifth of their 2015 target. 
+<br><br>
+The scheme set out to produce more electricity than Wales consumed within 20 years. 
+<br><br>
+Whilst progress has been made in generating a quarter of Welsh consumption in renewables in 2016, the amount of greenhouse gas emissions from energy supply has remained stable. Fear about not reaching these renewable targets could be a factor that led to the Welsh Government changing its position on nuclear power, despite a commitment in 2010 to aspire to generate twice as much power from renewables as consumption, eliminating the need for nuclear.
+<br><br>
+Looking to the future, we can use the UK Government's Renewable Energy Planning Database to see projects currently being built and which ones have planning permissions, to see future trends. Current operational projects amount to 2,567.6 MW. 15 projects are currently under construction and 55 projects have planning, which would bring capacity to over 4,000 in the next few years, but still a long way from the 2010 Welsh Government target of 22,500 MW target by 2020/25.
+          
+          
+<br>
+    <div id="toolbar">
+      <a  id="all" class="button active">All</a>
+      <a id="year" class="button">Rejected - Operational - In Progress</a>
+    </div>
+<div id="vis"></div>
+        </p></div>
+        
+        <div id='map'></div>
+        
+        <p>
+Whilst energy policy is not devolved, a recent Assembly report A Smarter Energy Future for Wales noted last year that "Wales does not need to wait for more powers from Westminster to achieve the majority of our smarter energy vision; we can start now."
+<br><br>
+"In the context of the need to meet reduce carbon emissions by at least 80% by 2050, Wales should set a target date for self-sufficiency."
+<br><br>
+A recent IWA report Re-energising Wales does address the issue, and suggest that investment is one of the biggest problems causing delays. It also addresses another issue; the public sector and its effects on greenhouse gas emissions. 
+</p>
+    </div>
+  </div>
+</div>
+
+<div id="public-jumbotron" class="jumbotron text-center"> <!-- http://www.geograph.org.uk/photo/4098046 -->
+  <h1>Public Sector</h1> 
+  <p class="text-center">Government aims for carbon neutral public secotr, but it only accounts for 0.7% of emissions</p> 
+
+</div>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-user logo slideanim"></span>
+    </div>
+    <div class="col-sm-8">
+
+      <p>The Welsh Government is making big efforts in making the public sector carbon neutral, with public bodies producing assessments to the Future Generations Commissioner. Environment Secretary Lesley Griffiths made a commitment in July: " “Wales is already at the forefront of global action on climate change, leading the way in the UK in recycling and introducing ground-breaking legislation of the Wellbeing of Future Generations Act. 
+<br><br>
+“I believe the public sector should lead by example in reducing emission, which is why I would like to see the sector be carbon neutral by 2030."
+<br><br>
+In 2015, the public sector accounted for only 0.7% of Welsh emissions, meaning the commitment is likely to have minimal impact. 
+<br><br>
+However, what the IWA recognised is the investment of pension pots in the public sector in fossil fuel, and if directed towards renewable energy, the investment would boost Wales as a renewable country. 
+<br><br>
+In addition, the public sector's role in developing electric cars and chargers is vital as well as their roles in encouraging public transportation systems.
+</p>
+    </div>
+  </div>
+    <div class="row">
+    <div class="col-sm-8">
+      
+      <h4>The Future Generation commissioner says that public bodies have "generally limited considerations of global effects of what we do locally, now and in the long-term." Her report adds that 'given Wales' commitment to reducing emissions (by at least 80% by 2050) and focus on moving towards a low carbon economy and society many of the opportunities afforded through local low carbon energy seem to have been missed.'
+
+</h4><h3>Sophie Howe, Future Generations Comissioner for Wales</h3><br>
+
+<br><a target="_blank" href="https://futuregenerations.wales/wp-content/uploads/2017/07/FGCW_Well-being_in_Wales-Planning_today_for_a_better_tomorrow_2017_edit_27082017.pdf"> <button class="btn btn-default btn-lg">View the report</button></a>
+    </div>
+    <div class="col-sm-4">
+      <img class = "picture-quote" src="future-gen.png"/>
+    </div>
+  </div>
+</div>
+
+
+
+<div id="transport-jumbotron" class="jumbotron text-center"> <!-- http://www.geograph.org.uk/photo/2465831 -->
+  <h1>Transport</h1> 
+  <p class="text-center">Transport emissions in Wales rose in 2014 and 2015, reversing the very gradual decline since 2007. 
+</p> 
+
+</div>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-road logo slideanim"></span>
+    </div>
+    <div class="col-sm-8">
+
+      <p>The rise can be attributed to a rise in the use of cars, and a decline in public transport across Wales. Despite being justified by being part of a wider UK trend, Welsh transport emissions per person are higher than the UK average.
+<br><br>
+Being an almost wholly devolved matter (all figures exclude aviation), transport emissions in Wales are near what they were in the 1990s, accounting for 13% of greenhouse gas emissions in 2015. A total of 6043 kilotons CO2e was emitted in 2015, which would require a forest covering the entire size of Wales to offset the carbon.
+<br><br>
+Improvements were made throughout the first decade of the century, but have taken a backwards turn. The Welsh Government is not on track to meet its 3% reduction target in this sector.
+<br><br>
+There are many reasons why there has been an increase, mainly due to increased traffic from cars and light duty trucks. Car transport emits the bulk of the transport emissions, which brings with it wider environmental impact, transportation emissions are causing bad air pollution, and putting public health at risk.
+<br><br>
+One reason for the increase in car usage can be attributed to the decline in public transport.
+<br><br>
+The number of passenger bus journeys in Wales has fallen dramatically in Wales since the financial downturn in 2008. Figures for the first quarter of 2017 from StatsWales show that the number of passenger journeys on local bus services in Wales is down almost 20 percent since the same time in 2008. 25 million journeys were taken between January and March this year, compared with 31 million before the crash.
+<br><br>
+It is estimated that around 40% of journeys are made by adults over 60 with a free bus pass, funded by the Welsh Government, making bus transport extremely subsidised, and vulnerable at a time of wider austerity.
+<br><br>
+In addition, to encourage bus use, the Welsh Government set up a travel pass scheme for 16-18 year olds, giving them a third off. However, the scheme can be dubbed as a failure. In January, the government decided the programme would end, ending the discount for the 7,000 people who applied in its first year. However, in February, they changed their mind and said it would continue until a new scheme is in place. The Welsh Government said it only launched as a pilot with funding up until this year, but will look at options to open it further, despite it being destined for funding until 2020 and beyond in the National Transport Finance Plan in 2015. Its cost is being estimated at £13.75 million over the two years, equivalent to about £1,700 for every young person who registered.
+<br><br>
+The 2011 census showed that proportionally more people in Wales drive to work, with less than 7 percent taking public transport.  
+<br><br>
+In addition to seeing the biggest fall in the number of journeys being made in Great Britain, Wales saw the fare increases of 11%(including taking inflation into account). In Scotland fares have increased 16%, and 11% in England. This goes with information from Traveline Cymru who said that the number of services reduced from 1,412 in 2010 to 1,091 in 2015. They said: " We understand that to be as a result of consolidation of services by some operators, a reduction in local authority support for socially necessary services and more stringent commercial route viability assessments by operators. A consequence of fewer services, might inevitably lead to fewer passengers.”
+<br><br>
+It is also notable that the number of journeys per head of population is far below the UK average or England comparative figures. In 2015-16, there were 32 journeys on local bus journeys per head of population in Wales according to a Welsh Government analysis of the UK Department for Transport Public Service Vehicle Survey. The comparative number in England is 83 journeys, and 76 journeys in Scotland. 
+<br><br>
+The way we use trains in Wales has also been changing, with 30.31 million passenger journeys made in 2016-16 starting or ending in Wales, an increase of almost 10 million since 2005. 
+<br><br>
+There are differences between which line you're on though, with city authorities seeing big increases in journeys, and over 150,000 fewer journeys being made on the North Wales line compared with 2011/12.
+<br><br>
+Between 2008/09 there have been big differences in growth on the railways in Wales. In fact, journeys from Rhondda Cynon Taf have reduced since then. 
+<br><br>
+A recent decision to stop electrification of the Great Western line to Swansea was criticised immensely by green groups. Pippa Bartolotti, Wales Green Party Deputy Leader has denounced the decision. “If the aim of the UK government is to confine Wales to the hardships and pollution of the past, then they are going the right way about it.
+<br><br>
+”It is common knowledge that Wales can create more than twice the renewable energy it can use, and that energy can sensibly be used to power – among many things – a rail system. Money is being wasted on more expensive rolling stock as trains will have to switch from electric to diesel for the journey beyond Cardiff. Put another way, the clean engines will go from London to Cardiff, the dirty diesel will be forced on the Cardiff to Swansea leg.”
+<br><br>
+However, greenhouse gas emission statistics show that all rail transport in Wales account for only 0.2% of total emissions, and only 1.5% of transport emissions, proving that the priority needs to be at reducing car transport usage. 
+<br><br>
+Figures from the Department of Transport show that uptake of electric or hybrid vehicles has been very slow in Wales. As of March 2017, there were 2,108 plug in vehicles in Wales, making up 2% of the number in the UK. 
+<br><br>
+Performance varies by county, with Swansea having 280, but Merthyr Tydfil having only nine registered in the authority. This could be linked to the number of charging points available. There is only one public charging facility within Merthyr authority borders.</p>
+    </div>
+  </div>
+</div>
+
+<div id="residential-jumbotron" class="jumbotron text-center"> <!-- http://www.geograph.org.uk/photo/2744250 -->
+  <h1>Residential</h1> 
+  <p class="text-center">Welsh Government "can't get the basics right" on building efficient homes</p> 
+
+</div>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-home logo slideanim"></span>
+    </div>
+    <div class="col-sm-8">
+
+      <p>Around a third of energy use is to create electricity, a third for transport, and the next topic is the final third: heat generation. Specifically, in the residential sector, where 'Welsh Ministers have the power to ensure that every new house that is built meets the highest efficiency standards.' Despite this, and a Welsh Government commitment a decade ago to build all houses zero-carbon, 59 new dwellings were given a category G or F rating in the first six months of this year. 
+<br><br>
+Ambitions to build zero carbon homes was set out in Welsh Labour's 2007 manifesto, and became a Welsh Government aspiration to reach this by 2011. However, a decade later, a Welsh Government official has said it "can't get the basics right" in improving efficiency in building regulations. 
+<br><br>
+With new devolved powers, Welsh Government consultation in 2012 recommended improving building regulations to make homes at least 40% more efficient. However, this was not followed through, and changes led to an 8% improvement. Even so, a Welsh Government official said in a committee meeting "there are issues around performance gap.
+<br><br>
+"Previous improvements we suspect aren't being reached in many cases". He added that before improving efficiency further we've got to ensure what we're building now is compliant. If we can't do the basics right before moving on."[check this quote]
+<br><br>
+Labour AM Jenny Rathbone replied "it seems to be a matter of urgency...we are still producing frankly very poor quality, most of our contractors continue to produce buildings that aren't of the standards in terms of energy resilience."
+<br><br>
+In addition, any hoped for a quick change are dashed. Any ambition to improve regulations and force house builders to build more efficient homes are in "very early stages at the moment."
+<br><br>
+In what began as a challenging aspiration to be the first UK country to build all homes zero-carbon, the Welsh Government will now only build zero-carbon homes when it will be legally obliged to do so, as an EU directive gives a date of 2021.
+<br><br>
+A March 2008 committee report said: 'The Welsh Assembly Government has asked for building regulations to be devolved so that it can meet its target of all new buildings being zero carbon by 2011.' These powers were fully devolved in 2013, but the target has since been abandoned, and only delivered an 8% improvement. 
+<br><br>
+Director of Friends of the Earth Cymru, Gareth Clubb, has said: "Even as our fuel bills constantly rise, and concerns about the impact of climate change are increasing worldwide, the Welsh Government is busily doing everything it can to delay action on energy efficiency for new housing."
+<br><br>
+On top of this, the current standards to build inefficient homes undermines the goals of sustainability set out in the Well-Being of Future Generations Act. A 2016 Assembly report recommended that Wales must 'urgently revise building regulations to ensure that all new houses are being built to 'near zero' energy standards.'
+
+    </div>
+  </div>
+</div>
+
+
+
+<div id="agriculture-jumbotron" class="jumbotron text-center"> <!-- https://commons.wikimedia.org/wiki/File:Dairy.JPG -->
+  <h1>Agriculture &amp Woodlands</h1> 
+  <p class="text-center">‘Annual planting in Wales and Northern Ireland is now negligible’ failing essential targets</p> 
+
+</div>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-tree-deciduous logo slideanim"></span>
+    </div>
+    <div class="col-sm-8">
+
+      <p>Whilst reduced waste has a good effect on our environment, it is important to consider other implications, such as agriculture and land use. 
+
+The agricultural industry accounts for 13% of Welsh emissions, but a 2010 Welsh Government report stated that 'if emissions from the food chain from field to plate are considered, this would increase the impact further to about 20% of total emissions. However, since most Welsh produced food is exported and most food eaten in Wales is imported and distributed through the supermarket system, there is little integration and association between the two at present.' 
+<br><br>
+However, unlike other sectors, the Welsh Government has made no progress in reaching goals set out in 1010 to reduce emissions in the agricultural sector. In fact, emissions from the sector are at their highest since 2006.
+<br><br>
+In response to a 2011 environment and sustainability committee inquiry, the Farmers Union of Wales seemed hopeful, saying: "The FUW believes that the agricultural sector in Wales can make a significant contribution to the achievement of the Welsh Government's 3 percent emissions reduction target through mitigation of its own emissions as well as the emissions of other sectors through carbon sequestration in soils and timber and the production of energy crops to replace fossil fuels."
+<br><br>
+
+Options on how to decrease emissions from the sector were presented to ministers in 2010 in a report by Gareth Wyn Jones, a former Bangor University professor. They considered five scenarios, ranging from modified business as usual to 70% cuts to ruminant animal numbers, an idea proposed by the Tyndall Centre.
+<br><br>
+Their recommended scenario was to maintain food production, but develop technologies not seen in Wales yet to make its carbon footprint as low as possible. This includes the rapid and comprehensive use of anaerobic digestion to make biogas, woodland expansion of 100,000 hectares, and slowly changing demand. 
+<br><br>
+There has not been any development of farm technologies in relation to anaerobic digestion, changing demand is glacial, and the woodland strategy is a 'disastrous failure.'
+<br><br>
+A July report by the Assembly Climate Change Committee ‘Branching Out’ revealed alarming woodland growth figures, and recommended the Welsh Government must urgently refresh its woodland strategy to set long term targets with significantly increased planting rates. Progress against a 2010 target to plant 5,000 ha of woodland a year are far behind, at about 10% of the target planting rate.
+<br><br>
+The Forestry Commission warned last year that ‘Annual planting in Wales and Northern Ireland is now negligible.’(Forestry commission , june 2016, Woodland Area: Planting & Restocking.)
+<br><br>
+In the report, Confor said: ‘The disastrous failure of Welsh Government since 2010 to meet agreed tree-planting targets outs the economic, social and environmental sustainability of our countryside at risk.’ He went on to ring a bell with the majority of Welsh Government climate change targets, “there is a massive gap between aspiration and reality.”
+<br><br>
+The situation is not helped by the spread of ash dieback and larch disease in Wales, leading to over 6 million trees having to be cut. Woodlands in Wales and the UK are at further risk, the Journal of Forestry in January 2016 warned that woodland in the UK could see the same fate as the US, where increasing temperatures have led to beetles killing trees.
+
+<br><br>
+Environment Minister Lesley Griffiths said that Welsh Government is developing a new Low Carbon Delivery Plan by Spring 2019, and a refresh Woodlands for Wales by early next year. Her advisory group, WSAP, have been reappointed for a further 3 years, with terms of reference not open to the public.
+<br><br>
+Martin Bishop, Confor’s Wales Manager and member of the Welsh Government’s Woodland advisory panel, said: “This report is a shot in the arm for the industry, which delivers half a billion pounds of annual value to the Welsh economy. It recognises Wales is missing an enormous range of economic, environmental and community benefits delivered by not planting enough trees - and sets out a clear plan of action to put things right. It is a blueprint for a greener future.
+<br><br>
+"The first recommendation delivers the central message forestry and timber businesses have been waiting for – more tree planting and especially more commercial tree planting, to provide the raw material to drive the rural economy forward.”
+<br><br>
+What is also contributing to these emissions, at the expense of small local farmers, is the growth of intensive livestock farming.
+</p>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<footer class="container-fluid text-center">
+  <a href="#myPage" title="To Top">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a>
+  <p>Bootstrap Theme Made By <a href="https://www.w3schools.com" title="Visit w3schools">www.w3schools.com</a></p>
+</footer>
+
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+  
+  $(window).scroll(function() {
+    $(".slideanim").each(function(){
+      var pos = $(this).offset().top;
+
+      var winTop = $(window).scrollTop();
+        if (pos < winTop + 600) {
+          $(this).addClass("slide");
+        }
+    });
+  });
+})
+</script>
+
+     <!--  <script src='chart1.js'></script> -->
+    <!--<script src='ghgraph.js'></script> -->
+    <script type="text/javascript" src="js/worldCapita2.js"></script>
+    <script type="text/javascript" src="js/ghgraph.js"></script>
+    <script type="text/javascript" src="js/walesRenewableMap.js"></script>
+    <script type="text/javascript" src="js/renewableGraph.js"></script>
+    <script type="text/javascript" src="js/bubbleRenewable.js"></script>
+
+</body>
+</html>
+

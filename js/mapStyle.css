@@ -1,0 +1,7 @@
+.mapboxgl-marker {
+    width: 3%;
+    height: 3%;
+    border-radius: 50%;
+    border:1px solid gray;
+    background-color:green;
+}

@@ -1,0 +1,638 @@
+COU,Country,Variable,Year,Unit,PowerCode,Value
+WAL,Wales,Total GHG per capita,2000,Kilograms per capita,Thousands,20.1
+WAL,Wales,Total GHG per capita,2001,Kilograms per capita,Thousands,18.908
+WAL,Wales,Total GHG per capita,2004,Kilograms per capita,Thousands,17.862
+WAL,Wales,Total GHG per capita,2006,Kilograms per capita,Thousands,17.535
+WAL,Wales,Total GHG per capita,2005,Kilograms per capita,Thousands,17.113
+WAL,Wales,Total GHG per capita,2003,Kilograms per capita,Thousands,16.817
+WAL,Wales,Total GHG per capita,2008,Kilograms per capita,Thousands,16.777
+WAL,Wales,Total GHG per capita,2013,Kilograms per capita,Thousands,16.544
+WAL,Wales,Total GHG per capita,2002,Kilograms per capita,Thousands,16.523
+WAL,Wales,Total GHG per capita,2007,Kilograms per capita,Thousands,16.397
+WAL,Wales,Total GHG per capita,2010,Kilograms per capita,Thousands,15.553
+WAL,Wales,Total GHG per capita,2012,Kilograms per capita,Thousands,15.074
+WAL,Wales,Total GHG per capita,2014,Kilograms per capita,Thousands,15.062
+WAL,Wales,Total GHG per capita,2015,Kilograms per capita,Thousands,14.856
+WAL,Wales,Total GHG per capita,2009,Kilograms per capita,Thousands,14.597
+WAL,Wales,Total GHG per capita,2011,Kilograms per capita,Thousands,14.451
+USA,United States,Total GHG per capita,2000,Kilograms per capita,Thousands,25.566
+USA,United States,Total GHG per capita,2004,Kilograms per capita,Thousands,24.947
+USA,United States,Total GHG per capita,2001,Kilograms per capita,Thousands,24.898
+USA,United States,Total GHG per capita,2002,Kilograms per capita,Thousands,24.793
+USA,United States,Total GHG per capita,2005,Kilograms per capita,Thousands,24.747
+USA,United States,Total GHG per capita,2003,Kilograms per capita,Thousands,24.72
+USA,United States,Total GHG per capita,2007,Kilograms per capita,Thousands,24.397
+USA,United States,Total GHG per capita,2006,Kilograms per capita,Thousands,24.286
+USA,United States,Total GHG per capita,2008,Kilograms per capita,Thousands,23.497
+USA,United States,Total GHG per capita,2010,Kilograms per capita,Thousands,22.387
+USA,United States,Total GHG per capita,2009,Kilograms per capita,Thousands,21.841
+USA,United States,Total GHG per capita,2011,Kilograms per capita,Thousands,21.74
+USA,United States,Total GHG per capita,2014,Kilograms per capita,Thousands,21.137
+USA,United States,Total GHG per capita,2013,Kilograms per capita,Thousands,21.106
+USA,United States,Total GHG per capita,2012,Kilograms per capita,Thousands,20.815
+USA,United States,Total GHG per capita,2015,Kilograms per capita,Thousands,20.496
+GBR,United Kingdom,Total GHG per capita,2001,Kilograms per capita,Thousands,12.12
+GBR,United Kingdom,Total GHG per capita,2000,Kilograms per capita,Thousands,12.109
+GBR,United Kingdom,Total GHG per capita,2003,Kilograms per capita,Thousands,11.961
+GBR,United Kingdom,Total GHG per capita,2002,Kilograms per capita,Thousands,11.893
+GBR,United Kingdom,Total GHG per capita,2004,Kilograms per capita,Thousands,11.846
+GBR,United Kingdom,Total GHG per capita,2005,Kilograms per capita,Thousands,11.628
+GBR,United Kingdom,Total GHG per capita,2006,Kilograms per capita,Thousands,11.466
+GBR,United Kingdom,Total GHG per capita,2007,Kilograms per capita,Thousands,11.186
+GBR,United Kingdom,Total GHG per capita,2008,Kilograms per capita,Thousands,10.771
+GBR,United Kingdom,Total GHG per capita,2010,Kilograms per capita,Thousands,9.944
+GBR,United Kingdom,Total GHG per capita,2009,Kilograms per capita,Thousands,9.764
+GBR,United Kingdom,Total GHG per capita,2012,Kilograms per capita,Thousands,9.295
+GBR,United Kingdom,Total GHG per capita,2011,Kilograms per capita,Thousands,9.089
+GBR,United Kingdom,Total GHG per capita,2013,Kilograms per capita,Thousands,8.994
+GBR,United Kingdom,Total GHG per capita,2014,Kilograms per capita,Thousands,8.27
+GBR,United Kingdom,Total GHG per capita,2015,Kilograms per capita,Thousands,7.853
+TUR,Turkey,Total GHG per capita,2015,Kilograms per capita,Thousands,6.111
+TUR,Turkey,Total GHG per capita,2012,Kilograms per capita,Thousands,5.972
+TUR,Turkey,Total GHG per capita,2014,Kilograms per capita,Thousands,5.925
+TUR,Turkey,Total GHG per capita,2011,Kilograms per capita,Thousands,5.879
+TUR,Turkey,Total GHG per capita,2013,Kilograms per capita,Thousands,5.814
+TUR,Turkey,Total GHG per capita,2007,Kilograms per capita,Thousands,5.63
+TUR,Turkey,Total GHG per capita,2009,Kilograms per capita,Thousands,5.565
+TUR,Turkey,Total GHG per capita,2010,Kilograms per capita,Thousands,5.562
+TUR,Turkey,Total GHG per capita,2008,Kilograms per capita,Thousands,5.515
+TUR,Turkey,Total GHG per capita,2006,Kilograms per capita,Thousands,5.22
+TUR,Turkey,Total GHG per capita,2005,Kilograms per capita,Thousands,4.927
+TUR,Turkey,Total GHG per capita,2004,Kilograms per capita,Thousands,4.662
+TUR,Turkey,Total GHG per capita,2000,Kilograms per capita,Thousands,4.613
+TUR,Turkey,Total GHG per capita,2003,Kilograms per capita,Thousands,4.552
+TUR,Turkey,Total GHG per capita,2002,Kilograms per capita,Thousands,4.312
+TUR,Turkey,Total GHG per capita,2001,Kilograms per capita,Thousands,4.261
+CHE,Switzerland,Total GHG per capita,2001,Kilograms per capita,Thousands,7.467
+CHE,Switzerland,Total GHG per capita,2005,Kilograms per capita,Thousands,7.376
+CHE,Switzerland,Total GHG per capita,2004,Kilograms per capita,Thousands,7.34
+CHE,Switzerland,Total GHG per capita,2003,Kilograms per capita,Thousands,7.302
+CHE,Switzerland,Total GHG per capita,2000,Kilograms per capita,Thousands,7.289
+CHE,Switzerland,Total GHG per capita,2006,Kilograms per capita,Thousands,7.28
+CHE,Switzerland,Total GHG per capita,2002,Kilograms per capita,Thousands,7.189
+CHE,Switzerland,Total GHG per capita,2008,Kilograms per capita,Thousands,7.072
+CHE,Switzerland,Total GHG per capita,2007,Kilograms per capita,Thousands,6.96
+CHE,Switzerland,Total GHG per capita,2010,Kilograms per capita,Thousands,6.946
+CHE,Switzerland,Total GHG per capita,2009,Kilograms per capita,Thousands,6.815
+CHE,Switzerland,Total GHG per capita,2013,Kilograms per capita,Thousands,6.551
+CHE,Switzerland,Total GHG per capita,2012,Kilograms per capita,Thousands,6.49
+CHE,Switzerland,Total GHG per capita,2011,Kilograms per capita,Thousands,6.356
+CHE,Switzerland,Total GHG per capita,2014,Kilograms per capita,Thousands,6.021
+CHE,Switzerland,Total GHG per capita,2015,Kilograms per capita,Thousands,5.91
+SWE,Sweden,Total GHG per capita,2003,Kilograms per capita,Thousands,7.859
+SWE,Sweden,Total GHG per capita,2002,Kilograms per capita,Thousands,7.837
+SWE,Sweden,Total GHG per capita,2001,Kilograms per capita,Thousands,7.756
+SWE,Sweden,Total GHG per capita,2000,Kilograms per capita,Thousands,7.743
+SWE,Sweden,Total GHG per capita,2004,Kilograms per capita,Thousands,7.715
+SWE,Sweden,Total GHG per capita,2005,Kilograms per capita,Thousands,7.404
+SWE,Sweden,Total GHG per capita,2006,Kilograms per capita,Thousands,7.353
+SWE,Sweden,Total GHG per capita,2007,Kilograms per capita,Thousands,7.119
+SWE,Sweden,Total GHG per capita,2010,Kilograms per capita,Thousands,6.884
+SWE,Sweden,Total GHG per capita,2008,Kilograms per capita,Thousands,6.818
+SWE,Sweden,Total GHG per capita,2011,Kilograms per capita,Thousands,6.408
+SWE,Sweden,Total GHG per capita,2009,Kilograms per capita,Thousands,6.307
+SWE,Sweden,Total GHG per capita,2012,Kilograms per capita,Thousands,6.005
+SWE,Sweden,Total GHG per capita,2013,Kilograms per capita,Thousands,5.779
+SWE,Sweden,Total GHG per capita,2014,Kilograms per capita,Thousands,5.551
+SWE,Sweden,Total GHG per capita,2015,Kilograms per capita,Thousands,5.479
+ESP,Spain,Total GHG per capita,2005,Kilograms per capita,Thousands,10.067
+ESP,Spain,Total GHG per capita,2004,Kilograms per capita,Thousands,9.915
+ESP,Spain,Total GHG per capita,2007,Kilograms per capita,Thousands,9.725
+ESP,Spain,Total GHG per capita,2006,Kilograms per capita,Thousands,9.712
+ESP,Spain,Total GHG per capita,2002,Kilograms per capita,Thousands,9.694
+ESP,Spain,Total GHG per capita,2003,Kilograms per capita,Thousands,9.689
+ESP,Spain,Total GHG per capita,2000,Kilograms per capita,Thousands,9.508
+ESP,Spain,Total GHG per capita,2001,Kilograms per capita,Thousands,9.398
+ESP,Spain,Total GHG per capita,2008,Kilograms per capita,Thousands,8.866
+ESP,Spain,Total GHG per capita,2009,Kilograms per capita,Thousands,7.987
+ESP,Spain,Total GHG per capita,2010,Kilograms per capita,Thousands,7.662
+ESP,Spain,Total GHG per capita,2011,Kilograms per capita,Thousands,7.638
+ESP,Spain,Total GHG per capita,2012,Kilograms per capita,Thousands,7.523
+ESP,Spain,Total GHG per capita,2015,Kilograms per capita,Thousands,7.234
+ESP,Spain,Total GHG per capita,2014,Kilograms per capita,Thousands,6.978
+ESP,Spain,Total GHG per capita,2013,Kilograms per capita,Thousands,6.93
+SVN,Slovenia,Total GHG per capita,2008,Kilograms per capita,Thousands,10.629
+SVN,Slovenia,Total GHG per capita,2007,Kilograms per capita,Thousands,10.302
+SVN,Slovenia,Total GHG per capita,2006,Kilograms per capita,Thousands,10.292
+SVN,Slovenia,Total GHG per capita,2005,Kilograms per capita,Thousands,10.243
+SVN,Slovenia,Total GHG per capita,2004,Kilograms per capita,Thousands,10.106
+SVN,Slovenia,Total GHG per capita,2002,Kilograms per capita,Thousands,10.09
+SVN,Slovenia,Total GHG per capita,2001,Kilograms per capita,Thousands,10.033
+SVN,Slovenia,Total GHG per capita,2003,Kilograms per capita,Thousands,9.942
+SVN,Slovenia,Total GHG per capita,2000,Kilograms per capita,Thousands,9.593
+SVN,Slovenia,Total GHG per capita,2009,Kilograms per capita,Thousands,9.584
+SVN,Slovenia,Total GHG per capita,2010,Kilograms per capita,Thousands,9.566
+SVN,Slovenia,Total GHG per capita,2011,Kilograms per capita,Thousands,9.555
+SVN,Slovenia,Total GHG per capita,2012,Kilograms per capita,Thousands,9.26
+SVN,Slovenia,Total GHG per capita,2013,Kilograms per capita,Thousands,8.907
+SVN,Slovenia,Total GHG per capita,2015,Kilograms per capita,Thousands,8.145
+SVN,Slovenia,Total GHG per capita,2014,Kilograms per capita,Thousands,8.057
+SVK,Slovak Republic,Total GHG per capita,2001,Kilograms per capita,Thousands,9.719
+SVK,Slovak Republic,Total GHG per capita,2004,Kilograms per capita,Thousands,9.566
+SVK,Slovak Republic,Total GHG per capita,2005,Kilograms per capita,Thousands,9.566
+SVK,Slovak Republic,Total GHG per capita,2006,Kilograms per capita,Thousands,9.542
+SVK,Slovak Republic,Total GHG per capita,2003,Kilograms per capita,Thousands,9.441
+SVK,Slovak Republic,Total GHG per capita,2002,Kilograms per capita,Thousands,9.354
+SVK,Slovak Republic,Total GHG per capita,2008,Kilograms per capita,Thousands,9.328
+SVK,Slovak Republic,Total GHG per capita,2000,Kilograms per capita,Thousands,9.253
+SVK,Slovak Republic,Total GHG per capita,2007,Kilograms per capita,Thousands,9.205
+SVK,Slovak Republic,Total GHG per capita,2010,Kilograms per capita,Thousands,8.636
+SVK,Slovak Republic,Total GHG per capita,2009,Kilograms per capita,Thousands,8.475
+SVK,Slovak Republic,Total GHG per capita,2011,Kilograms per capita,Thousands,8.42
+SVK,Slovak Republic,Total GHG per capita,2012,Kilograms per capita,Thousands,7.998
+SVK,Slovak Republic,Total GHG per capita,2013,Kilograms per capita,Thousands,7.918
+SVK,Slovak Republic,Total GHG per capita,2015,Kilograms per capita,Thousands,7.619
+SVK,Slovak Republic,Total GHG per capita,2014,Kilograms per capita,Thousands,7.511
+RUS,Russia,Total GHG per capita,2012,Kilograms per capita,Thousands,18.85
+RUS,Russia,Total GHG per capita,2011,Kilograms per capita,Thousands,18.633
+RUS,Russia,Total GHG per capita,2013,Kilograms per capita,Thousands,18.399
+RUS,Russia,Total GHG per capita,2014,Kilograms per capita,Thousands,18.388
+RUS,Russia,Total GHG per capita,2008,Kilograms per capita,Thousands,18.317
+RUS,Russia,Total GHG per capita,2010,Kilograms per capita,Thousands,18.208
+RUS,Russia,Total GHG per capita,2015,Kilograms per capita,Thousands,18.124
+RUS,Russia,Total GHG per capita,2007,Kilograms per capita,Thousands,18.085
+RUS,Russia,Total GHG per capita,2006,Kilograms per capita,Thousands,17.985
+RUS,Russia,Total GHG per capita,2005,Kilograms per capita,Thousands,17.418
+RUS,Russia,Total GHG per capita,2009,Kilograms per capita,Thousands,17.369
+RUS,Russia,Total GHG per capita,2004,Kilograms per capita,Thousands,17.142
+RUS,Russia,Total GHG per capita,2003,Kilograms per capita,Thousands,16.734
+RUS,Russia,Total GHG per capita,2002,Kilograms per capita,Thousands,16.111
+RUS,Russia,Total GHG per capita,2001,Kilograms per capita,Thousands,15.979
+RUS,Russia,Total GHG per capita,2000,Kilograms per capita,Thousands,15.506
+PRT,Portugal,Total GHG per capita,2002,Kilograms per capita,Thousands,8.264
+PRT,Portugal,Total GHG per capita,2005,Kilograms per capita,Thousands,8.201
+PRT,Portugal,Total GHG per capita,2004,Kilograms per capita,Thousands,8.031
+PRT,Portugal,Total GHG per capita,2000,Kilograms per capita,Thousands,7.997
+PRT,Portugal,Total GHG per capita,2001,Kilograms per capita,Thousands,7.906
+PRT,Portugal,Total GHG per capita,2003,Kilograms per capita,Thousands,7.743
+PRT,Portugal,Total GHG per capita,2006,Kilograms per capita,Thousands,7.736
+PRT,Portugal,Total GHG per capita,2007,Kilograms per capita,Thousands,7.506
+PRT,Portugal,Total GHG per capita,2008,Kilograms per capita,Thousands,7.246
+PRT,Portugal,Total GHG per capita,2009,Kilograms per capita,Thousands,6.94
+PRT,Portugal,Total GHG per capita,2015,Kilograms per capita,Thousands,6.624
+PRT,Portugal,Total GHG per capita,2010,Kilograms per capita,Thousands,6.554
+PRT,Portugal,Total GHG per capita,2011,Kilograms per capita,Thousands,6.455
+PRT,Portugal,Total GHG per capita,2012,Kilograms per capita,Thousands,6.3
+PRT,Portugal,Total GHG per capita,2014,Kilograms per capita,Thousands,6.162
+PRT,Portugal,Total GHG per capita,2013,Kilograms per capita,Thousands,6.151
+POL,Poland,Total GHG per capita,2007,Kilograms per capita,Thousands,10.814
+POL,Poland,Total GHG per capita,2006,Kilograms per capita,Thousands,10.801
+POL,Poland,Total GHG per capita,2008,Kilograms per capita,Thousands,10.618
+POL,Poland,Total GHG per capita,2010,Kilograms per capita,Thousands,10.512
+POL,Poland,Total GHG per capita,2011,Kilograms per capita,Thousands,10.493
+POL,Poland,Total GHG per capita,2005,Kilograms per capita,Thousands,10.417
+POL,Poland,Total GHG per capita,2004,Kilograms per capita,Thousands,10.398
+POL,Poland,Total GHG per capita,2013,Kilograms per capita,Thousands,10.34
+POL,Poland,Total GHG per capita,2012,Kilograms per capita,Thousands,10.302
+POL,Poland,Total GHG per capita,2003,Kilograms per capita,Thousands,10.266
+POL,Poland,Total GHG per capita,2000,Kilograms per capita,Thousands,10.176
+POL,Poland,Total GHG per capita,2001,Kilograms per capita,Thousands,10.152
+POL,Poland,Total GHG per capita,2009,Kilograms per capita,Thousands,10.133
+POL,Poland,Total GHG per capita,2015,Kilograms per capita,Thousands,10.114
+POL,Poland,Total GHG per capita,2014,Kilograms per capita,Thousands,10.008
+POL,Poland,Total GHG per capita,2002,Kilograms per capita,Thousands,9.895
+OECD,OECD - Total,Total GHG per capita,2000,Kilograms per capita,Thousands,14.233
+OECD,OECD - Total,Total GHG per capita,2004,Kilograms per capita,Thousands,14.153
+OECD,OECD - Total,Total GHG per capita,2003,Kilograms per capita,Thousands,14.071
+OECD,OECD - Total,Total GHG per capita,2005,Kilograms per capita,Thousands,14.059
+OECD,OECD - Total,Total GHG per capita,2001,Kilograms per capita,Thousands,14.044
+OECD,OECD - Total,Total GHG per capita,2002,Kilograms per capita,Thousands,14.013
+OECD,OECD - Total,Total GHG per capita,2007,Kilograms per capita,Thousands,13.977
+OECD,OECD - Total,Total GHG per capita,2006,Kilograms per capita,Thousands,13.923
+OECD,OECD - Total,Total GHG per capita,2008,Kilograms per capita,Thousands,13.565
+OECD,OECD - Total,Total GHG per capita,2010,Kilograms per capita,Thousands,13.041
+OECD,OECD - Total,Total GHG per capita,2011,Kilograms per capita,Thousands,12.815
+OECD,OECD - Total,Total GHG per capita,2009,Kilograms per capita,Thousands,12.741
+OECD,OECD - Total,Total GHG per capita,2012,Kilograms per capita,Thousands,12.583
+OECD,OECD - Total,Total GHG per capita,2013,Kilograms per capita,Thousands,12.52
+OECD,OECD - Total,Total GHG per capita,2014,Kilograms per capita,Thousands,12.314
+OECD,OECD - Total,Total GHG per capita,2015,Kilograms per capita,Thousands,12.145
+OECDE,OECD - Europe,Total GHG per capita,2003,Kilograms per capita,Thousands,10.159
+OECDE,OECD - Europe,Total GHG per capita,2001,Kilograms per capita,Thousands,10.149
+OECDE,OECD - Europe,Total GHG per capita,2000,Kilograms per capita,Thousands,10.142
+OECDE,OECD - Europe,Total GHG per capita,2004,Kilograms per capita,Thousands,10.126
+OECDE,OECD - Europe,Total GHG per capita,2002,Kilograms per capita,Thousands,10.041
+OECDE,OECD - Europe,Total GHG per capita,2005,Kilograms per capita,Thousands,10.033
+OECDE,OECD - Europe,Total GHG per capita,2006,Kilograms per capita,Thousands,9.992
+OECDE,OECD - Europe,Total GHG per capita,2007,Kilograms per capita,Thousands,9.878
+OECDE,OECD - Europe,Total GHG per capita,2008,Kilograms per capita,Thousands,9.616
+OECDE,OECD - Europe,Total GHG per capita,2010,Kilograms per capita,Thousands,9.138
+OECDE,OECD - Europe,Total GHG per capita,2009,Kilograms per capita,Thousands,8.975
+OECDE,OECD - Europe,Total GHG per capita,2011,Kilograms per capita,Thousands,8.852
+OECDE,OECD - Europe,Total GHG per capita,2012,Kilograms per capita,Thousands,8.754
+OECDE,OECD - Europe,Total GHG per capita,2013,Kilograms per capita,Thousands,8.574
+OECDE,OECD - Europe,Total GHG per capita,2015,Kilograms per capita,Thousands,8.264
+OECDE,OECD - Europe,Total GHG per capita,2014,Kilograms per capita,Thousands,8.233
+NOR,Norway,Total GHG per capita,2001,Kilograms per capita,Thousands,12.387
+NOR,Norway,Total GHG per capita,2004,Kilograms per capita,Thousands,12.199
+NOR,Norway,Total GHG per capita,2000,Kilograms per capita,Thousands,12.166
+NOR,Norway,Total GHG per capita,2003,Kilograms per capita,Thousands,12.139
+NOR,Norway,Total GHG per capita,2002,Kilograms per capita,Thousands,12.083
+NOR,Norway,Total GHG per capita,2007,Kilograms per capita,Thousands,12.053
+NOR,Norway,Total GHG per capita,2005,Kilograms per capita,Thousands,11.919
+NOR,Norway,Total GHG per capita,2006,Kilograms per capita,Thousands,11.776
+NOR,Norway,Total GHG per capita,2008,Kilograms per capita,Thousands,11.588
+NOR,Norway,Total GHG per capita,2010,Kilograms per capita,Thousands,11.297
+NOR,Norway,Total GHG per capita,2015,Kilograms per capita,Thousands,10.992
+NOR,Norway,Total GHG per capita,2011,Kilograms per capita,Thousands,10.946
+NOR,Norway,Total GHG per capita,2009,Kilograms per capita,Thousands,10.904
+NOR,Norway,Total GHG per capita,2012,Kilograms per capita,Thousands,10.723
+NOR,Norway,Total GHG per capita,2013,Kilograms per capita,Thousands,10.537
+NOR,Norway,Total GHG per capita,2014,Kilograms per capita,Thousands,10.382
+NZL,New Zealand,Total GHG per capita,2003,Kilograms per capita,Thousands,20.096
+NZL,New Zealand,Total GHG per capita,2001,Kilograms per capita,Thousands,20.089
+NZL,New Zealand,Total GHG per capita,2005,Kilograms per capita,Thousands,19.956
+NZL,New Zealand,Total GHG per capita,2002,Kilograms per capita,Thousands,19.886
+NZL,New Zealand,Total GHG per capita,2006,Kilograms per capita,Thousands,19.728
+NZL,New Zealand,Total GHG per capita,2004,Kilograms per capita,Thousands,19.701
+NZL,New Zealand,Total GHG per capita,2000,Kilograms per capita,Thousands,19.478
+NZL,New Zealand,Total GHG per capita,2007,Kilograms per capita,Thousands,18.98
+NZL,New Zealand,Total GHG per capita,2008,Kilograms per capita,Thousands,18.828
+NZL,New Zealand,Total GHG per capita,2012,Kilograms per capita,Thousands,18.133
+NZL,New Zealand,Total GHG per capita,2009,Kilograms per capita,Thousands,18.061
+NZL,New Zealand,Total GHG per capita,2010,Kilograms per capita,Thousands,17.946
+NZL,New Zealand,Total GHG per capita,2013,Kilograms per capita,Thousands,17.874
+NZL,New Zealand,Total GHG per capita,2014,Kilograms per capita,Thousands,17.799
+NZL,New Zealand,Total GHG per capita,2011,Kilograms per capita,Thousands,17.781
+NZL,New Zealand,Total GHG per capita,2015,Kilograms per capita,Thousands,17.453
+NLD,Netherlands,Total GHG per capita,2000,Kilograms per capita,Thousands,13.775
+NLD,Netherlands,Total GHG per capita,2001,Kilograms per capita,Thousands,13.689
+NLD,Netherlands,Total GHG per capita,2002,Kilograms per capita,Thousands,13.472
+NLD,Netherlands,Total GHG per capita,2004,Kilograms per capita,Thousands,13.446
+NLD,Netherlands,Total GHG per capita,2003,Kilograms per capita,Thousands,13.422
+NLD,Netherlands,Total GHG per capita,2005,Kilograms per capita,Thousands,13.119
+NLD,Netherlands,Total GHG per capita,2010,Kilograms per capita,Thousands,12.875
+NLD,Netherlands,Total GHG per capita,2006,Kilograms per capita,Thousands,12.794
+NLD,Netherlands,Total GHG per capita,2007,Kilograms per capita,Thousands,12.712
+NLD,Netherlands,Total GHG per capita,2008,Kilograms per capita,Thousands,12.627
+NLD,Netherlands,Total GHG per capita,2009,Kilograms per capita,Thousands,12.225
+NLD,Netherlands,Total GHG per capita,2011,Kilograms per capita,Thousands,11.983
+NLD,Netherlands,Total GHG per capita,2012,Kilograms per capita,Thousands,11.651
+NLD,Netherlands,Total GHG per capita,2013,Kilograms per capita,Thousands,11.628
+NLD,Netherlands,Total GHG per capita,2015,Kilograms per capita,Thousands,11.486
+NLD,Netherlands,Total GHG per capita,2014,Kilograms per capita,Thousands,11.075
+MEX,Mexico,Total GHG per capita,2008,Kilograms per capita,Thousands,6.282
+MEX,Mexico,Total GHG per capita,2010,Kilograms per capita,Thousands,6.139
+MEX,Mexico,Total GHG per capita,2007,Kilograms per capita,Thousands,6.105
+MEX,Mexico,Total GHG per capita,2009,Kilograms per capita,Thousands,6.105
+MEX,Mexico,Total GHG per capita,2006,Kilograms per capita,Thousands,5.935
+MEX,Mexico,Total GHG per capita,2004,Kilograms per capita,Thousands,5.777
+MEX,Mexico,Total GHG per capita,2005,Kilograms per capita,Thousands,5.736
+MEX,Mexico,Total GHG per capita,2000,Kilograms per capita,Thousands,5.6
+MEX,Mexico,Total GHG per capita,2003,Kilograms per capita,Thousands,5.541
+MEX,Mexico,Total GHG per capita,2001,Kilograms per capita,Thousands,5.528
+MEX,Mexico,Total GHG per capita,2002,Kilograms per capita,Thousands,5.508
+MEX,Mexico,Total GHG per capita,2013,Kilograms per capita,Thousands,5.345
+LUX,Luxembourg,Total GHG per capita,2005,Kilograms per capita,Thousands,28.103
+LUX,Luxembourg,Total GHG per capita,2004,Kilograms per capita,Thousands,27.95
+LUX,Luxembourg,Total GHG per capita,2006,Kilograms per capita,Thousands,27.282
+LUX,Luxembourg,Total GHG per capita,2007,Kilograms per capita,Thousands,25.673
+LUX,Luxembourg,Total GHG per capita,2003,Kilograms per capita,Thousands,25.165
+LUX,Luxembourg,Total GHG per capita,2008,Kilograms per capita,Thousands,25.035
+LUX,Luxembourg,Total GHG per capita,2002,Kilograms per capita,Thousands,24.388
+LUX,Luxembourg,Total GHG per capita,2010,Kilograms per capita,Thousands,24.198
+LUX,Luxembourg,Total GHG per capita,2011,Kilograms per capita,Thousands,23.53
+LUX,Luxembourg,Total GHG per capita,2009,Kilograms per capita,Thousands,23.452
+LUX,Luxembourg,Total GHG per capita,2001,Kilograms per capita,Thousands,22.883
+LUX,Luxembourg,Total GHG per capita,2012,Kilograms per capita,Thousands,22.385
+LUX,Luxembourg,Total GHG per capita,2000,Kilograms per capita,Thousands,22.042
+LUX,Luxembourg,Total GHG per capita,2013,Kilograms per capita,Thousands,20.882
+LUX,Luxembourg,Total GHG per capita,2014,Kilograms per capita,Thousands,19.567
+LUX,Luxembourg,Total GHG per capita,2015,Kilograms per capita,Thousands,18.25
+LTU,Lithuania,Total GHG per capita,2007,Kilograms per capita,Thousands,7.579
+LTU,Lithuania,Total GHG per capita,2008,Kilograms per capita,Thousands,7.354
+LTU,Lithuania,Total GHG per capita,2006,Kilograms per capita,Thousands,6.888
+LTU,Lithuania,Total GHG per capita,2005,Kilograms per capita,Thousands,6.752
+LTU,Lithuania,Total GHG per capita,2012,Kilograms per capita,Thousands,6.626
+LTU,Lithuania,Total GHG per capita,2011,Kilograms per capita,Thousands,6.612
+LTU,Lithuania,Total GHG per capita,2015,Kilograms per capita,Thousands,6.393
+LTU,Lithuania,Total GHG per capita,2010,Kilograms per capita,Thousands,6.384
+LTU,Lithuania,Total GHG per capita,2004,Kilograms per capita,Thousands,6.362
+LTU,Lithuania,Total GHG per capita,2014,Kilograms per capita,Thousands,6.283
+LTU,Lithuania,Total GHG per capita,2013,Kilograms per capita,Thousands,6.268
+LTU,Lithuania,Total GHG per capita,2003,Kilograms per capita,Thousands,6.089
+LTU,Lithuania,Total GHG per capita,2009,Kilograms per capita,Thousands,6.078
+LTU,Lithuania,Total GHG per capita,2002,Kilograms per capita,Thousands,6.011
+LTU,Lithuania,Total GHG per capita,2001,Kilograms per capita,Thousands,5.863
+LTU,Lithuania,Total GHG per capita,2000,Kilograms per capita,Thousands,5.599
+LVA,Latvia,Total GHG per capita,2010,Kilograms per capita,Thousands,5.817
+LVA,Latvia,Total GHG per capita,2007,Kilograms per capita,Thousands,5.577
+LVA,Latvia,Total GHG per capita,2012,Kilograms per capita,Thousands,5.57
+LVA,Latvia,Total GHG per capita,2015,Kilograms per capita,Thousands,5.564
+LVA,Latvia,Total GHG per capita,2011,Kilograms per capita,Thousands,5.551
+LVA,Latvia,Total GHG per capita,2013,Kilograms per capita,Thousands,5.487
+LVA,Latvia,Total GHG per capita,2014,Kilograms per capita,Thousands,5.482
+LVA,Latvia,Total GHG per capita,2008,Kilograms per capita,Thousands,5.42
+LVA,Latvia,Total GHG per capita,2006,Kilograms per capita,Thousands,5.326
+LVA,Latvia,Total GHG per capita,2009,Kilograms per capita,Thousands,5.175
+LVA,Latvia,Total GHG per capita,2005,Kilograms per capita,Thousands,5.043
+LVA,Latvia,Total GHG per capita,2004,Kilograms per capita,Thousands,4.897
+LVA,Latvia,Total GHG per capita,2003,Kilograms per capita,Thousands,4.848
+LVA,Latvia,Total GHG per capita,2002,Kilograms per capita,Thousands,4.726
+LVA,Latvia,Total GHG per capita,2001,Kilograms per capita,Thousands,4.679
+LVA,Latvia,Total GHG per capita,2000,Kilograms per capita,Thousands,4.366
+KOR,Korea,Total GHG per capita,2013,Kilograms per capita,Thousands,13.83
+KOR,Korea,Total GHG per capita,2012,Kilograms per capita,Thousands,13.685
+KOR,Korea,Total GHG per capita,2011,Kilograms per capita,Thousands,13.673
+KOR,Korea,Total GHG per capita,2010,Kilograms per capita,Thousands,13.217
+KOR,Korea,Total GHG per capita,2009,Kilograms per capita,Thousands,12.081
+KOR,Korea,Total GHG per capita,2008,Kilograms per capita,Thousands,12.071
+KOR,Korea,Total GHG per capita,2007,Kilograms per capita,Thousands,11.88
+KOR,Korea,Total GHG per capita,2006,Kilograms per capita,Thousands,11.61
+KOR,Korea,Total GHG per capita,2005,Kilograms per capita,Thousands,11.554
+KOR,Korea,Total GHG per capita,2004,Kilograms per capita,Thousands,11.499
+KOR,Korea,Total GHG per capita,2003,Kilograms per capita,Thousands,11.354
+KOR,Korea,Total GHG per capita,2002,Kilograms per capita,Thousands,11.188
+KOR,Korea,Total GHG per capita,2001,Kilograms per capita,Thousands,10.804
+KOR,Korea,Total GHG per capita,2000,Kilograms per capita,Thousands,10.611
+JPN,Japan,Total GHG per capita,2013,Kilograms per capita,Thousands,11.052
+JPN,Japan,Total GHG per capita,2007,Kilograms per capita,Thousands,11.05
+JPN,Japan,Total GHG per capita,2005,Kilograms per capita,Thousands,10.924
+JPN,Japan,Total GHG per capita,2000,Kilograms per capita,Thousands,10.912
+JPN,Japan,Total GHG per capita,2003,Kilograms per capita,Thousands,10.905
+JPN,Japan,Total GHG per capita,2002,Kilograms per capita,Thousands,10.899
+JPN,Japan,Total GHG per capita,2012,Kilograms per capita,Thousands,10.893
+JPN,Japan,Total GHG per capita,2004,Kilograms per capita,Thousands,10.873
+JPN,Japan,Total GHG per capita,2006,Kilograms per capita,Thousands,10.777
+JPN,Japan,Total GHG per capita,2014,Kilograms per capita,Thousands,10.728
+JPN,Japan,Total GHG per capita,2001,Kilograms per capita,Thousands,10.663
+JPN,Japan,Total GHG per capita,2011,Kilograms per capita,Thousands,10.589
+JPN,Japan,Total GHG per capita,2015,Kilograms per capita,Thousands,10.447
+JPN,Japan,Total GHG per capita,2008,Kilograms per capita,Thousands,10.384
+JPN,Japan,Total GHG per capita,2010,Kilograms per capita,Thousands,10.181
+JPN,Japan,Total GHG per capita,2009,Kilograms per capita,Thousands,9.803
+ITA,Italy,Total GHG per capita,2003,Kilograms per capita,Thousands,9.999
+ITA,Italy,Total GHG per capita,2004,Kilograms per capita,Thousands,9.978
+ITA,Italy,Total GHG per capita,2005,Kilograms per capita,Thousands,9.887
+ITA,Italy,Total GHG per capita,2001,Kilograms per capita,Thousands,9.843
+ITA,Italy,Total GHG per capita,2002,Kilograms per capita,Thousands,9.821
+ITA,Italy,Total GHG per capita,2000,Kilograms per capita,Thousands,9.709
+ITA,Italy,Total GHG per capita,2006,Kilograms per capita,Thousands,9.663
+ITA,Italy,Total GHG per capita,2007,Kilograms per capita,Thousands,9.46
+ITA,Italy,Total GHG per capita,2008,Kilograms per capita,Thousands,9.162
+ITA,Italy,Total GHG per capita,2010,Kilograms per capita,Thousands,8.35
+ITA,Italy,Total GHG per capita,2009,Kilograms per capita,Thousands,8.243
+ITA,Italy,Total GHG per capita,2011,Kilograms per capita,Thousands,8.101
+ITA,Italy,Total GHG per capita,2012,Kilograms per capita,Thousands,7.718
+ITA,Italy,Total GHG per capita,2013,Kilograms per capita,Thousands,7.2
+ITA,Italy,Total GHG per capita,2015,Kilograms per capita,Thousands,7.025
+ITA,Italy,Total GHG per capita,2014,Kilograms per capita,Thousands,6.893
+IRL,Ireland,Total GHG per capita,2001,Kilograms per capita,Thousands,18.488
+IRL,Ireland,Total GHG per capita,2000,Kilograms per capita,Thousands,18.227
+IRL,Ireland,Total GHG per capita,2002,Kilograms per capita,Thousands,17.634
+IRL,Ireland,Total GHG per capita,2003,Kilograms per capita,Thousands,17.406
+IRL,Ireland,Total GHG per capita,2004,Kilograms per capita,Thousands,16.949
+IRL,Ireland,Total GHG per capita,2005,Kilograms per capita,Thousands,16.929
+IRL,Ireland,Total GHG per capita,2006,Kilograms per capita,Thousands,16.374
+IRL,Ireland,Total GHG per capita,2007,Kilograms per capita,Thousands,15.664
+IRL,Ireland,Total GHG per capita,2008,Kilograms per capita,Thousands,15.135
+IRL,Ireland,Total GHG per capita,2009,Kilograms per capita,Thousands,13.729
+IRL,Ireland,Total GHG per capita,2010,Kilograms per capita,Thousands,13.545
+IRL,Ireland,Total GHG per capita,2015,Kilograms per capita,Thousands,13.084
+IRL,Ireland,Total GHG per capita,2012,Kilograms per capita,Thousands,12.676
+IRL,Ireland,Total GHG per capita,2013,Kilograms per capita,Thousands,12.611
+IRL,Ireland,Total GHG per capita,2011,Kilograms per capita,Thousands,12.584
+IRL,Ireland,Total GHG per capita,2014,Kilograms per capita,Thousands,12.529
+IDN,Indonesia,Total GHG per capita,2000,Kilograms per capita,Thousands,2.653
+IND,India,Total GHG per capita,2000,Kilograms per capita,Thousands,1.462
+ISL,Iceland,Total GHG per capita,2008,Kilograms per capita,Thousands,15.795
+ISL,Iceland,Total GHG per capita,2009,Kilograms per capita,Thousands,14.954
+ISL,Iceland,Total GHG per capita,2007,Kilograms per capita,Thousands,14.899
+ISL,Iceland,Total GHG per capita,2010,Kilograms per capita,Thousands,14.625
+ISL,Iceland,Total GHG per capita,2006,Kilograms per capita,Thousands,14.519
+ISL,Iceland,Total GHG per capita,2012,Kilograms per capita,Thousands,13.935
+ISL,Iceland,Total GHG per capita,2013,Kilograms per capita,Thousands,13.852
+ISL,Iceland,Total GHG per capita,2015,Kilograms per capita,Thousands,13.836
+ISL,Iceland,Total GHG per capita,2011,Kilograms per capita,Thousands,13.824
+ISL,Iceland,Total GHG per capita,2000,Kilograms per capita,Thousands,13.755
+ISL,Iceland,Total GHG per capita,2014,Kilograms per capita,Thousands,13.709
+ISL,Iceland,Total GHG per capita,2002,Kilograms per capita,Thousands,13.483
+ISL,Iceland,Total GHG per capita,2001,Kilograms per capita,Thousands,13.471
+ISL,Iceland,Total GHG per capita,2004,Kilograms per capita,Thousands,13.349
+ISL,Iceland,Total GHG per capita,2003,Kilograms per capita,Thousands,13.331
+ISL,Iceland,Total GHG per capita,2005,Kilograms per capita,Thousands,12.967
+HUN,Hungary,Total GHG per capita,2003,Kilograms per capita,Thousands,7.603
+HUN,Hungary,Total GHG per capita,2004,Kilograms per capita,Thousands,7.519
+HUN,Hungary,Total GHG per capita,2005,Kilograms per capita,Thousands,7.512
+HUN,Hungary,Total GHG per capita,2001,Kilograms per capita,Thousands,7.421
+HUN,Hungary,Total GHG per capita,2006,Kilograms per capita,Thousands,7.412
+HUN,Hungary,Total GHG per capita,2002,Kilograms per capita,Thousands,7.273
+HUN,Hungary,Total GHG per capita,2007,Kilograms per capita,Thousands,7.243
+HUN,Hungary,Total GHG per capita,2000,Kilograms per capita,Thousands,7.194
+HUN,Hungary,Total GHG per capita,2008,Kilograms per capita,Thousands,7.077
+HUN,Hungary,Total GHG per capita,2010,Kilograms per capita,Thousands,6.541
+HUN,Hungary,Total GHG per capita,2009,Kilograms per capita,Thousands,6.483
+HUN,Hungary,Total GHG per capita,2011,Kilograms per capita,Thousands,6.411
+HUN,Hungary,Total GHG per capita,2015,Kilograms per capita,Thousands,6.234
+HUN,Hungary,Total GHG per capita,2012,Kilograms per capita,Thousands,6.062
+HUN,Hungary,Total GHG per capita,2014,Kilograms per capita,Thousands,5.88
+HUN,Hungary,Total GHG per capita,2013,Kilograms per capita,Thousands,5.806
+GRC,Greece,Total GHG per capita,2005,Kilograms per capita,Thousands,12.283
+GRC,Greece,Total GHG per capita,2007,Kilograms per capita,Thousands,12.089
+GRC,Greece,Total GHG per capita,2004,Kilograms per capita,Thousands,11.919
+GRC,Greece,Total GHG per capita,2003,Kilograms per capita,Thousands,11.902
+GRC,Greece,Total GHG per capita,2006,Kilograms per capita,Thousands,11.889
+GRC,Greece,Total GHG per capita,2008,Kilograms per capita,Thousands,11.771
+GRC,Greece,Total GHG per capita,2001,Kilograms per capita,Thousands,11.633
+GRC,Greece,Total GHG per capita,2002,Kilograms per capita,Thousands,11.598
+GRC,Greece,Total GHG per capita,2000,Kilograms per capita,Thousands,11.571
+GRC,Greece,Total GHG per capita,2009,Kilograms per capita,Thousands,11.123
+GRC,Greece,Total GHG per capita,2010,Kilograms per capita,Thousands,10.608
+GRC,Greece,Total GHG per capita,2011,Kilograms per capita,Thousands,10.368
+GRC,Greece,Total GHG per capita,2012,Kilograms per capita,Thousands,10.101
+GRC,Greece,Total GHG per capita,2013,Kilograms per capita,Thousands,9.016
+GRC,Greece,Total GHG per capita,2014,Kilograms per capita,Thousands,8.73
+GRC,Greece,Total GHG per capita,2015,Kilograms per capita,Thousands,8.398
+DEU,Germany,Total GHG per capita,2001,Kilograms per capita,Thousands,12.847
+DEU,Germany,Total GHG per capita,2000,Kilograms per capita,Thousands,12.686
+DEU,Germany,Total GHG per capita,2002,Kilograms per capita,Thousands,12.571
+DEU,Germany,Total GHG per capita,2003,Kilograms per capita,Thousands,12.526
+DEU,Germany,Total GHG per capita,2004,Kilograms per capita,Thousands,12.328
+DEU,Germany,Total GHG per capita,2006,Kilograms per capita,Thousands,12.13
+DEU,Germany,Total GHG per capita,2005,Kilograms per capita,Thousands,12.028
+DEU,Germany,Total GHG per capita,2008,Kilograms per capita,Thousands,11.87
+DEU,Germany,Total GHG per capita,2007,Kilograms per capita,Thousands,11.819
+DEU,Germany,Total GHG per capita,2013,Kilograms per capita,Thousands,11.72
+DEU,Germany,Total GHG per capita,2012,Kilograms per capita,Thousands,11.524
+DEU,Germany,Total GHG per capita,2010,Kilograms per capita,Thousands,11.516
+DEU,Germany,Total GHG per capita,2011,Kilograms per capita,Thousands,11.382
+DEU,Germany,Total GHG per capita,2014,Kilograms per capita,Thousands,11.176
+DEU,Germany,Total GHG per capita,2015,Kilograms per capita,Thousands,11.107
+DEU,Germany,Total GHG per capita,2009,Kilograms per capita,Thousands,11.074
+FRA,France,Total GHG per capita,2000,Kilograms per capita,Thousands,9.41
+FRA,France,Total GHG per capita,2001,Kilograms per capita,Thousands,9.363
+FRA,France,Total GHG per capita,2003,Kilograms per capita,Thousands,9.234
+FRA,France,Total GHG per capita,2002,Kilograms per capita,Thousands,9.208
+FRA,France,Total GHG per capita,2004,Kilograms per capita,Thousands,9.154
+FRA,France,Total GHG per capita,2005,Kilograms per capita,Thousands,9.119
+FRA,France,Total GHG per capita,2006,Kilograms per capita,Thousands,8.852
+FRA,France,Total GHG per capita,2007,Kilograms per capita,Thousands,8.653
+FRA,France,Total GHG per capita,2008,Kilograms per capita,Thousands,8.491
+FRA,France,Total GHG per capita,2010,Kilograms per capita,Thousands,8.213
+FRA,France,Total GHG per capita,2009,Kilograms per capita,Thousands,8.116
+FRA,France,Total GHG per capita,2011,Kilograms per capita,Thousands,7.748
+FRA,France,Total GHG per capita,2012,Kilograms per capita,Thousands,7.698
+FRA,France,Total GHG per capita,2013,Kilograms per capita,Thousands,7.639
+FRA,France,Total GHG per capita,2015,Kilograms per capita,Thousands,7.17
+FRA,France,Total GHG per capita,2014,Kilograms per capita,Thousands,7.149
+FIN,Finland,Total GHG per capita,2003,Kilograms per capita,Thousands,16.345
+FIN,Finland,Total GHG per capita,2004,Kilograms per capita,Thousands,15.573
+FIN,Finland,Total GHG per capita,2006,Kilograms per capita,Thousands,15.315
+FIN,Finland,Total GHG per capita,2007,Kilograms per capita,Thousands,14.955
+FIN,Finland,Total GHG per capita,2002,Kilograms per capita,Thousands,14.937
+FIN,Finland,Total GHG per capita,2001,Kilograms per capita,Thousands,14.508
+FIN,Finland,Total GHG per capita,2010,Kilograms per capita,Thousands,14.096
+FIN,Finland,Total GHG per capita,2000,Kilograms per capita,Thousands,13.507
+FIN,Finland,Total GHG per capita,2008,Kilograms per capita,Thousands,13.381
+FIN,Finland,Total GHG per capita,2005,Kilograms per capita,Thousands,13.242
+FIN,Finland,Total GHG per capita,2009,Kilograms per capita,Thousands,12.621
+FIN,Finland,Total GHG per capita,2011,Kilograms per capita,Thousands,12.559
+FIN,Finland,Total GHG per capita,2013,Kilograms per capita,Thousands,11.606
+FIN,Finland,Total GHG per capita,2012,Kilograms per capita,Thousands,11.515
+FIN,Finland,Total GHG per capita,2014,Kilograms per capita,Thousands,10.809
+FIN,Finland,Total GHG per capita,2015,Kilograms per capita,Thousands,10.105
+EST,Estonia,Total GHG per capita,2013,Kilograms per capita,Thousands,16.556
+EST,Estonia,Total GHG per capita,2007,Kilograms per capita,Thousands,16.521
+EST,Estonia,Total GHG per capita,2014,Kilograms per capita,Thousands,16.022
+EST,Estonia,Total GHG per capita,2011,Kilograms per capita,Thousands,15.868
+EST,Estonia,Total GHG per capita,2010,Kilograms per capita,Thousands,15.815
+EST,Estonia,Total GHG per capita,2012,Kilograms per capita,Thousands,15.134
+EST,Estonia,Total GHG per capita,2008,Kilograms per capita,Thousands,14.921
+EST,Estonia,Total GHG per capita,2004,Kilograms per capita,Thousands,14.251
+EST,Estonia,Total GHG per capita,2005,Kilograms per capita,Thousands,14.177
+EST,Estonia,Total GHG per capita,2003,Kilograms per capita,Thousands,14
+EST,Estonia,Total GHG per capita,2015,Kilograms per capita,Thousands,13.756
+EST,Estonia,Total GHG per capita,2006,Kilograms per capita,Thousands,13.706
+EST,Estonia,Total GHG per capita,2001,Kilograms per capita,Thousands,12.897
+EST,Estonia,Total GHG per capita,2002,Kilograms per capita,Thousands,12.557
+EST,Estonia,Total GHG per capita,2000,Kilograms per capita,Thousands,12.552
+EST,Estonia,Total GHG per capita,2009,Kilograms per capita,Thousands,12.46
+DNK,Denmark,Total GHG per capita,2003,Kilograms per capita,Thousands,14.416
+DNK,Denmark,Total GHG per capita,2006,Kilograms per capita,Thousands,13.786
+DNK,Denmark,Total GHG per capita,2001,Kilograms per capita,Thousands,13.645
+DNK,Denmark,Total GHG per capita,2002,Kilograms per capita,Thousands,13.51
+DNK,Denmark,Total GHG per capita,2000,Kilograms per capita,Thousands,13.37
+DNK,Denmark,Total GHG per capita,2004,Kilograms per capita,Thousands,13.253
+DNK,Denmark,Total GHG per capita,2007,Kilograms per capita,Thousands,12.887
+DNK,Denmark,Total GHG per capita,2005,Kilograms per capita,Thousands,12.402
+DNK,Denmark,Total GHG per capita,2008,Kilograms per capita,Thousands,12.148
+DNK,Denmark,Total GHG per capita,2010,Kilograms per capita,Thousands,11.601
+DNK,Denmark,Total GHG per capita,2009,Kilograms per capita,Thousands,11.563
+DNK,Denmark,Total GHG per capita,2011,Kilograms per capita,Thousands,10.612
+DNK,Denmark,Total GHG per capita,2013,Kilograms per capita,Thousands,9.989
+DNK,Denmark,Total GHG per capita,2012,Kilograms per capita,Thousands,9.701
+DNK,Denmark,Total GHG per capita,2014,Kilograms per capita,Thousands,9.27
+DNK,Denmark,Total GHG per capita,2015,Kilograms per capita,Thousands,8.809
+CZE,Czech Republic,Total GHG per capita,2004,Kilograms per capita,Thousands,14.554
+CZE,Czech Republic,Total GHG per capita,2007,Kilograms per capita,Thousands,14.5
+CZE,Czech Republic,Total GHG per capita,2003,Kilograms per capita,Thousands,14.477
+CZE,Czech Republic,Total GHG per capita,2001,Kilograms per capita,Thousands,14.464
+CZE,Czech Republic,Total GHG per capita,2006,Kilograms per capita,Thousands,14.436
+CZE,Czech Republic,Total GHG per capita,2000,Kilograms per capita,Thousands,14.429
+CZE,Czech Republic,Total GHG per capita,2005,Kilograms per capita,Thousands,14.318
+CZE,Czech Republic,Total GHG per capita,2002,Kilograms per capita,Thousands,14.153
+CZE,Czech Republic,Total GHG per capita,2008,Kilograms per capita,Thousands,13.916
+CZE,Czech Republic,Total GHG per capita,2010,Kilograms per capita,Thousands,13.181
+CZE,Czech Republic,Total GHG per capita,2011,Kilograms per capita,Thousands,13.044
+CZE,Czech Republic,Total GHG per capita,2009,Kilograms per capita,Thousands,13.043
+CZE,Czech Republic,Total GHG per capita,2012,Kilograms per capita,Thousands,12.709
+CZE,Czech Republic,Total GHG per capita,2013,Kilograms per capita,Thousands,12.345
+CZE,Czech Republic,Total GHG per capita,2015,Kilograms per capita,Thousands,12.071
+CZE,Czech Republic,Total GHG per capita,2014,Kilograms per capita,Thousands,11.956
+CRI,Costa Rica,Total GHG per capita,2012,Kilograms per capita,Thousands,2.849
+CRI,Costa Rica,Total GHG per capita,2010,Kilograms per capita,Thousands,2.753
+CRI,Costa Rica,Total GHG per capita,2005,Kilograms per capita,Thousands,2.561
+COL,Colombia,Total GHG per capita,2000,Kilograms per capita,Thousands,3.655
+COL,Colombia,Total GHG per capita,2004,Kilograms per capita,Thousands,3.632
+CHN,China (People's Republic of),Total GHG per capita,2005,Kilograms per capita,Thousands,5.664
+CHL,Chile,Total GHG per capita,2013,Kilograms per capita,Thousands,6.26
+CHL,Chile,Total GHG per capita,2012,Kilograms per capita,Thousands,6.125
+CHL,Chile,Total GHG per capita,2011,Kilograms per capita,Thousands,5.918
+CHL,Chile,Total GHG per capita,2007,Kilograms per capita,Thousands,5.62
+CHL,Chile,Total GHG per capita,2008,Kilograms per capita,Thousands,5.618
+CHL,Chile,Total GHG per capita,2010,Kilograms per capita,Thousands,5.389
+CHL,Chile,Total GHG per capita,2009,Kilograms per capita,Thousands,5.342
+CHL,Chile,Total GHG per capita,2006,Kilograms per capita,Thousands,5.121
+CHL,Chile,Total GHG per capita,2005,Kilograms per capita,Thousands,5.097
+CHL,Chile,Total GHG per capita,2004,Kilograms per capita,Thousands,5.049
+CHL,Chile,Total GHG per capita,2000,Kilograms per capita,Thousands,4.903
+CHL,Chile,Total GHG per capita,2003,Kilograms per capita,Thousands,4.741
+CHL,Chile,Total GHG per capita,2002,Kilograms per capita,Thousands,4.735
+CHL,Chile,Total GHG per capita,2001,Kilograms per capita,Thousands,4.717
+CAN,Canada,Total GHG per capita,2000,Kilograms per capita,Thousands,24.055
+CAN,Canada,Total GHG per capita,2003,Kilograms per capita,Thousands,23.667
+CAN,Canada,Total GHG per capita,2004,Kilograms per capita,Thousands,23.502
+CAN,Canada,Total GHG per capita,2001,Kilograms per capita,Thousands,23.461
+CAN,Canada,Total GHG per capita,2002,Kilograms per capita,Thousands,23.287
+CAN,Canada,Total GHG per capita,2005,Kilograms per capita,Thousands,22.895
+CAN,Canada,Total GHG per capita,2007,Kilograms per capita,Thousands,22.765
+CAN,Canada,Total GHG per capita,2006,Kilograms per capita,Thousands,22.38
+CAN,Canada,Total GHG per capita,2008,Kilograms per capita,Thousands,21.886
+CAN,Canada,Total GHG per capita,2013,Kilograms per capita,Thousands,20.647
+CAN,Canada,Total GHG per capita,2010,Kilograms per capita,Thousands,20.536
+CAN,Canada,Total GHG per capita,2012,Kilograms per capita,Thousands,20.535
+CAN,Canada,Total GHG per capita,2011,Kilograms per capita,Thousands,20.515
+CAN,Canada,Total GHG per capita,2009,Kilograms per capita,Thousands,20.423
+CAN,Canada,Total GHG per capita,2014,Kilograms per capita,Thousands,20.362
+CAN,Canada,Total GHG per capita,2015,Kilograms per capita,Thousands,19.992
+BRA,Brazil,Total GHG per capita,2012,Kilograms per capita,Thousands,5.23
+BRA,Brazil,Total GHG per capita,2011,Kilograms per capita,Thousands,5.087
+BRA,Brazil,Total GHG per capita,2010,Kilograms per capita,Thousands,4.938
+BRA,Brazil,Total GHG per capita,2008,Kilograms per capita,Thousands,4.8
+BRA,Brazil,Total GHG per capita,2006,Kilograms per capita,Thousands,4.751
+BRA,Brazil,Total GHG per capita,2005,Kilograms per capita,Thousands,4.711
+BRA,Brazil,Total GHG per capita,2007,Kilograms per capita,Thousands,4.699
+BRA,Brazil,Total GHG per capita,2004,Kilograms per capita,Thousands,4.674
+BRA,Brazil,Total GHG per capita,2009,Kilograms per capita,Thousands,4.651
+BRA,Brazil,Total GHG per capita,2003,Kilograms per capita,Thousands,4.541
+BRA,Brazil,Total GHG per capita,2002,Kilograms per capita,Thousands,4.488
+BRA,Brazil,Total GHG per capita,2001,Kilograms per capita,Thousands,4.464
+BRA,Brazil,Total GHG per capita,2000,Kilograms per capita,Thousands,4.418
+BEL,Belgium,Total GHG per capita,2000,Kilograms per capita,Thousands,14.582
+BEL,Belgium,Total GHG per capita,2001,Kilograms per capita,Thousands,14.375
+BEL,Belgium,Total GHG per capita,2004,Kilograms per capita,Thousands,14.31
+BEL,Belgium,Total GHG per capita,2002,Kilograms per capita,Thousands,14.269
+BEL,Belgium,Total GHG per capita,2003,Kilograms per capita,Thousands,14.24
+BEL,Belgium,Total GHG per capita,2005,Kilograms per capita,Thousands,13.847
+BEL,Belgium,Total GHG per capita,2006,Kilograms per capita,Thousands,13.514
+BEL,Belgium,Total GHG per capita,2007,Kilograms per capita,Thousands,13.063
+BEL,Belgium,Total GHG per capita,2008,Kilograms per capita,Thousands,12.959
+BEL,Belgium,Total GHG per capita,2010,Kilograms per capita,Thousands,12.128
+BEL,Belgium,Total GHG per capita,2009,Kilograms per capita,Thousands,11.665
+BEL,Belgium,Total GHG per capita,2011,Kilograms per capita,Thousands,11.025
+BEL,Belgium,Total GHG per capita,2012,Kilograms per capita,Thousands,10.694
+BEL,Belgium,Total GHG per capita,2013,Kilograms per capita,Thousands,10.663
+BEL,Belgium,Total GHG per capita,2015,Kilograms per capita,Thousands,10.33
+BEL,Belgium,Total GHG per capita,2014,Kilograms per capita,Thousands,10.11
+AUT,Austria,Total GHG per capita,2003,Kilograms per capita,Thousands,11.321
+AUT,Austria,Total GHG per capita,2005,Kilograms per capita,Thousands,11.263
+AUT,Austria,Total GHG per capita,2004,Kilograms per capita,Thousands,11.222
+AUT,Austria,Total GHG per capita,2006,Kilograms per capita,Thousands,10.861
+AUT,Austria,Total GHG per capita,2002,Kilograms per capita,Thousands,10.672
+AUT,Austria,Total GHG per capita,2001,Kilograms per capita,Thousands,10.517
+AUT,Austria,Total GHG per capita,2007,Kilograms per capita,Thousands,10.497
+AUT,Austria,Total GHG per capita,2008,Kilograms per capita,Thousands,10.446
+AUT,Austria,Total GHG per capita,2010,Kilograms per capita,Thousands,10.173
+AUT,Austria,Total GHG per capita,2000,Kilograms per capita,Thousands,10.052
+AUT,Austria,Total GHG per capita,2011,Kilograms per capita,Thousands,9.858
+AUT,Austria,Total GHG per capita,2009,Kilograms per capita,Thousands,9.62
+AUT,Austria,Total GHG per capita,2012,Kilograms per capita,Thousands,9.499
+AUT,Austria,Total GHG per capita,2013,Kilograms per capita,Thousands,9.464
+AUT,Austria,Total GHG per capita,2015,Kilograms per capita,Thousands,9.235
+AUT,Austria,Total GHG per capita,2014,Kilograms per capita,Thousands,8.983
+AUS,Australia,Total GHG per capita,2005,Kilograms per capita,Thousands,25.833
+AUS,Australia,Total GHG per capita,2004,Kilograms per capita,Thousands,25.818
+AUS,Australia,Total GHG per capita,2006,Kilograms per capita,Thousands,25.68
+AUS,Australia,Total GHG per capita,2007,Kilograms per capita,Thousands,25.568
+AUS,Australia,Total GHG per capita,2001,Kilograms per capita,Thousands,25.544
+AUS,Australia,Total GHG per capita,2000,Kilograms per capita,Thousands,25.48
+AUS,Australia,Total GHG per capita,2002,Kilograms per capita,Thousands,25.445
+AUS,Australia,Total GHG per capita,2008,Kilograms per capita,Thousands,25.232
+AUS,Australia,Total GHG per capita,2003,Kilograms per capita,Thousands,25.226
+AUS,Australia,Total GHG per capita,2009,Kilograms per capita,Thousands,24.913
+AUS,Australia,Total GHG per capita,2010,Kilograms per capita,Thousands,24.381
+AUS,Australia,Total GHG per capita,2011,Kilograms per capita,Thousands,24.107
+AUS,Australia,Total GHG per capita,2012,Kilograms per capita,Thousands,23.813
+AUS,Australia,Total GHG per capita,2013,Kilograms per capita,Thousands,22.977
+AUS,Australia,Total GHG per capita,2014,Kilograms per capita,Thousands,22.384
+AUS,Australia,Total GHG per capita,2015,Kilograms per capita,Thousands,22.275

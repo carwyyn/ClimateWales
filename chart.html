@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Greenhouse Gas Wales</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+
+    <script src="/d3/d3.js"></script>
+    
+    
+
+<body>
+    
+
+    
+    
+    <div id="chartage" class = "container">
+        
+        
+<h1>Greenhouse Gas Emissions Wales</h1>
+        
+        
+        <div class="fullscreen-bg">
+  <!-- https://slicejack.com/fullscreen-html5-video-background-css/ -->
+  <video loop muted autoplay class="fullscreen-bg__video">
+      <source src="wind.mp4" type="video/mp4"> <!--https://www.youtube.com/watch?v=yD55QUVL8UA -->
+  </video>
+</div>
+        
+
+    <div id="gas"></div>
+        <div id="lineGas">  <svg id="ghg" width="90%" height="99%"></svg>  </div>
+    
+
+    <input type="range"  min="1996" max="2015" value="1996" onchange="changePie(this.value)" />
+    
+    <div class="container">
+        
+        <div class="row">
+        
+        <div class="col-2"></div>
+        
+        <div class="col-8"></div>=
+            
+            <h2>What is Wales' contribution?
+            </h2>
+            <p>
+                            Next year, Welsh Ministers will announce for the first time legal carbon limits for the period up to 2050 to reduce emissions in Wales by 80%.
+<br /><br />
+On the eve of this historic event, this investigation looks at the challenges ahead, analyses the different emission categories, and investigates how the government is doing on previously set targets.
+<br /><br />
+Wales' historic industrial history has had an impact on our natural environment, and the remnants can still be seen in our emissions today. 
+      <br /><br />
+          The lates figures, for 2015, show that in 2015 Wales emmitted 46 mega tonnes of greenhouse gas carbon dioxide equivalents (MtCO2e). Thus, Wales makes up 9.1% of UK emissions, and 1.1% of European Union emissions. However, at a emissions per capita outlook, Wales constantly appears near the top of the table of OECD reporting countries.
+            </p>
+        
+         <div class="col-2"></div>
+            
+            </div>
+    
+    
+    
+    
+    
+    
+    </div>
+        
+        
+
+</body>
+    <style>
+        
+    #gas {
+      
+        height: 75%;
+          width: 50%;
+        display: inline-block;
+        
+        }
+        #lineGas {
+         
+        height: 20%;
+          width: 50%;
+        display: inline-block;
+            
+        }
+        
+        #chartage {
+            width: 100vw;
+            height: 100vh;
+            
+        }
+        
+        .sideBar {
+            height: 100%;
+            width: 45%;
+            display: inline-block;
+            margin: 0;
+            float: right;
+            vertical-align: top;
+            
+        }
+        .innerSideBar {
+            height: 50%;
+        }
+        
+        .fullscreen-bg {
+    position: fixed;
+    opacity: 0.2;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.fullscreen-bg__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@media (min-aspect-ratio: 16/9) {
+  .fullscreen-bg__video {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .fullscreen-bg__video {
+    width: auto;
+    height: 100%;
+  }
+}
+        
+         @font-face { font-family: eco; src: url('RymanEco.otf'); } 
+        
+        h1 {
+            font-family: eco;
+            margin: auto;
+
+        }
+
+    </style>
+    <script>
+        
+    function changePie(newValue){
+    console.log(newValue);
+        
+    if (newValue === "1996"){
+        makePie("baseyear")
+    } else if (newValue === "1997"){
+        makePie("1995")
+    } else {
+        makePie(newValue)
+    } 
+    
+}
+        
+
+    </script>
+    
+        <script src='chart1.js'></script>
+    <script src='ghgraph.js'></script>
+</html>
